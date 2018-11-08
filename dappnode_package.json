@@ -1,0 +1,44 @@
+{
+  "name": "goerli-pantheon.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "description": "Pantheon version for Görli Testnet. A cross-client proof-of-authority ethereum testnet",
+  "avatar": "avatar.png",
+  "type": "library",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "restart": "always",
+    "volumes": [
+      "goerli:/goerli"
+    ],
+    "ports": [
+      "55535:30303",
+      "55535:30303/udp",
+      "55534:30304/udp"
+    ]
+  },
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+    "Stefaan Ponnet (https://github.com/sponnet)"
+  ],
+  "keywords": [
+    "ethereum",
+    "testnet",
+    "pantheon",
+    "goerli",
+    "pegasys"
+  ],
+  "homepage": {
+    "homepage": "https://github.com/dappnode/DAppNodePackage-goerli-pantheon#readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappnode/DAppNodePackage-goerli-pantheon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-goerli-pantheon/issues"
+  },
+  "license": "GPL-3.0"
+}
